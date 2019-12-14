@@ -1,0 +1,96 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+
+}
+
+.topnav .left {
+	position: absolute;
+}
+
+/* Style the links inside the navigation bar */
+.topnav .left a {
+    float: left;
+    color: #ff9000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 31px;
+    font-family: 'Economica', sans-serif;
+	letter-spacing: 2px;
+}
+
+.topnav .right {
+	float: right;
+}
+
+.topnav .right a {
+	float: right;
+}
+
+.topnav .right a {
+	float: right;
+}
+
+
+/* Change the color of links on hover */
+.topnav .left a:hover {
+    background-color: #160944;
+    color: #ff9000;
+}
+
+.topnav .right a:hover {
+	color: #ff9000;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: #ff9000;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-size: 31px;
+	font-family: 'Economica', sans-serif;
+	margin: 0;
+	letter-spacing: 2px;
+}
+
+.topnav .left a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(30, 0, 70);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(50, 50, 50);
+  color: orange;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 31px;
+  letter-spacing: 2px;
+  color: orange;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Economica', sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
