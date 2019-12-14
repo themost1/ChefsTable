@@ -11,11 +11,11 @@
 /* Style the links inside the navigation bar */
 .topnav .left a {
     float: left;
-    color: #ff9000;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 31px;
+    font-size: 20px;
     font-family: 'Economica', sans-serif;
 	letter-spacing: 2px;
 }
@@ -35,12 +35,12 @@
 
 /* Change the color of links on hover */
 .topnav .left a:hover {
-    background-color: #160944;
-    color: #ff9000;
+    background-color: #ff9000;
+    color: #000000;
 }
 
 .topnav .right a:hover {
-	color: #ff9000;
+	color: #000000;
 }
 
 .dropdown {
@@ -52,17 +52,17 @@
 	font-size: 16px;  
 	border: none;
 	outline: none;
-	color: #ff9000;
+	color: #000000;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-size: 31px;
+	font-size: 20px;
 	font-family: 'Economica', sans-serif;
 	margin: 0;
 	letter-spacing: 2px;
 }
 
 .topnav .left a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(30, 0, 70);
+  background-color: rgb(200, 200, 200);
 }
 
 .dropdown-content {
@@ -93,4 +93,10 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.maintext {
+    text-align: center;
+    color: #000000;
+	font-size: 40;
 }
