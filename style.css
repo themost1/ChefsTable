@@ -61,6 +61,21 @@
 	letter-spacing: 2px;
 }
 
+.searchbar {
+	background-color: #ffffff;
+	font-size: 20px;  
+	outline: none;
+	border: 1px solid black;
+	color: #000000;
+	padding: 14px 16px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.searchbar-img: {
+	background-color: #bbbbbb;
+}
+
 .topnav .left a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(200, 200, 200);
 }
@@ -99,4 +114,81 @@
     text-align: center;
     color: #000000;
 	font-size: 40;
+}
+
+.nametext {
+    text-align: center;
+    color: #000000;
+	font-size: 60;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-left {
+  float: left;
+  width: 38%;
+  padding: 10px;
+  margin-left: 20%;
+}
+
+.column-left-chef {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin-left: 10%;
+}
+
+.column-right {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-left: 10%;
+}
+
+.column-right-chef {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-left: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.event-tag {
+	background-color: #aaaaaa;
+}
+
+.rsvp-box {
+	font-size: 30;
+}
+
+.rsvp-text {
+	background-color: #00bb11;
+}
+
+.message-text {
+	background-color: #ffffff;
+}
+
+.photo-link {
+	text-decoration: underline;
+	color: blue;
+}
+
+.achievement-tag {
+	background-color: #ddffee;
 }
