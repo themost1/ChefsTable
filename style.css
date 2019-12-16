@@ -190,5 +190,11 @@
 }
 
 .achievement-tag {
-	background-color: #ddffee;
+	background-color: #aaffbb;
+}
+
+.advertisement {
+	background-color: #bbbbbb;
+	font-size: 20px;
+	margin-left: 30px;
 }
