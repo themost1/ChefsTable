@@ -5,44 +5,41 @@
 <title>	Chef's Table </title>
 <link href="../style.css" type="text/css" rel="stylesheet">
 <link rel="icon" href="../spatula.ico" type="image/x-icon">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link href="../list_style.css" type="text/css" rel="stylesheet">
 </head>
 
 
-<body style="background-color: pink">
+<body>
+	<style type="text/css">
+   body { background: pink !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+	</style>
 
-<!-- uses stylesheet above, so needs to be called topnav -->
-<div class="topnav">
-	<span class="topnav right">
-		<div class="dropdown">
-			<button class="dropbtn">Help</button>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn">Log In</button>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn">Sign Up</button>
-		</div>
-	</span>
-	
-	<div class="dropdown">
-		<a href="../index.html">
-			<img alt="Chef's Table Homepage" src="../images/logoNoBackground.png" width=150 height=75>
-		</a>
-	</div>
-	
-	<div class="dropdown">
-		<button class="searchbar">Search for food, user, or location
-			<img src="../images/magnifyingGlass.png" width=15 height=15>
-		</button>
-	</div>
-	
-	<div class="dropdown">
-		<div class="advertisement">
-			Click here for discount cooking supplies from Bob's Supply Store!<br/>
-		</div>
-	</div>
+<!-- top navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-inherit">
+  <a class="navbar-brand" href="../index.html">
+    <img  src="../images/logoNoBackground.png" width="200" height="100" class="d-inline-block align-top" alt="">
+  </a>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+				<form class="form-inline my-2 my-lg-0">
+       		<input class="form-control mr-sm-2" type="search" placeholder="Search Chef's Table...." aria-label="Search">
+     		</form>
 
-</div>
+		    <ul class="nav navbar-nav ml-auto">
+				<li class="nav-item">
+		        <a class="nav-link right_buttons" href="#"><span class="fas fa-sign-in-alt"></span> Help</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><span class="fas fa-user"></span> Sign Up</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#"><span class="fas fa-sign-in-alt"></span> Login</a>
+		      </li>
+		    </ul>
+	    </div>
+	  </div>
+</nav>
 
 <div class="maintext">
 	<img alt="Pasta 1" src="../images/pasta1.jpg" width=300 height=150>
@@ -57,7 +54,7 @@
 		<a href="./chefInfo.html">
 		<img alt="Steph's Profile Picture" style="font-size: 25px; text-align: center; display: table;" class="profile-img" src="../images/steph.png" width=100 height=120>
 		</a>
-    <h3>Description</h3>
+    <h4>Description</h4>
     <p>At Steph's Upper West Side apartment, we'll be making pasta and garlic bread. Steph learned to cook from her Italian grandma and can teach you how to make marinara, alfredo, and pasta al dente -- the Italian way!</p>
   </div>
   <div class="column-right" style="font-size: 20px;">

@@ -1,0 +1,18 @@
+.right_buttons{
+  margin-left: 800px;
+}
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://dummyimage.com/300x600/000/fff')
+}
+
+.column{
+  width: 400px;
+  height: 400px;
+}
