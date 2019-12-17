@@ -202,3 +202,58 @@
 	font-size: 20px;
 	margin-left: 30px;
 }
+
+
+/* LAUREN'S STYLE FOR HOME PAGE */
+
+.main_bar {
+  background-color: coral;
+  height: 300px;
+  margin: 20px;
+  padding: 15px;
+  border-radius:20px;
+}
+
+.label_box {
+  background-color: pink;
+  width: 100px;
+  height: 260px;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  border-radius:10px;
+}
+
+.see_all{
+  background-color: white;
+  font-size: 15px;
+  border-radius:10px;
+}
+
+
+.float_left{
+  float:left;
+}
+
+.float_right{
+  float:right;
+}
+
+.float_clear{
+  clear: both;
+}
+
+.image_box{
+  margin-left:40px;
+  margin-right:40px;
+  padding-top: 10px;
+  text-align: center;
+  object-fit: cover;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+}
+
+.caption_box{
+  width: 200px;
+  margin: 10px;
+}

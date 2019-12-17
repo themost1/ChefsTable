@@ -5,40 +5,186 @@
 <title>	Chef's Table </title>
 <link href="./style.css" type="text/css" rel="stylesheet">
 <link rel="icon" href="spatula.ico" type="image/x-icon">
+<link rel="stylesheet" href="./css/bootstrap.css">
+<link href="./list_style.css" type="text/css" rel="stylesheet">
 </head>
 
 
 <body style="background-color: pink">
 
-<!-- uses stylesheet above, so needs to be called topnav -->
-<div class="topnav">
-	<span class="topnav right">
-		<div class="dropdown">
-			<button class="dropbtn">Help</button>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn">Log In</button>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn">Sign Up</button>
-		</div>
-	</span>
-	
-	<div class="dropdown">
-		<a href="./index.html">
-			<img alt="Chef's Table Homepage" src="./images/logoNoBackground.png" width=150 height=75>
-		</a>
-	</div>
-	
-	<div class="dropdown">
-		<button class="searchbar">Search for food, user, or location
-			<img src="./images/magnifyingGlass.png" width=15 height=15>
-		</button>
-	</div>
-</div>
+<!-- top navbar -->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-inherit">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+							<form class="form-inline my-2 my-lg-0">
+								<input class="form-control mr-sm-2" type="search" placeholder="Search Chef's Table...." aria-label="Search">
+							</form>
+            </li>
+        </ul>
+    </div>
+
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+			<ul class="nav navbar-nav ml-auto">
+			 	<li class="nav-item">
+					<a class="nav-link" style="color:#212529" href="#"><span class="fas fa-sign-in-alt"></span> Help</a>
+				</li>
+
+			 	<li class="nav-item">
+					<a class="nav-link" style="color:#212529" href="#"><span class="fas fa-user"></span> Sign Up</a>
+			 	</li>
+
+			 <li class="nav-item">
+				 <a class="nav-link" style="color:#212529" href="#"><span class="fas fa-sign-in-alt"></span> Login</a>
+			 </li>
+		 </ul>
+    </div>
+</nav>
 
 <div class="center-img">
 	<img class="center-img" alt="Chef's Table Logo" src="./images/logoNoBackground.png" width=450 height=225>
+</div>
+
+
+<!-- Events near you bar -->
+
+<div class="main_bar">
+	<div class="label_box float_left">
+		Events Near you <br>
+		<div class="see_all">
+		<a href="./pages/eventList.html">
+			See all events!
+		</a>
+		</div>
+	</div>
+
+	
+	<div class="float_left image_box">
+
+		<a href="./pages/eventInfo.html">
+		 <img  src="./images/pasta_dinner.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>		 
+		<div class="caption_box">
+		 	Homemade Pasta with Steph
+		</div>
+
+	</div>
+
+	<div class="float_left image_box">
+
+		<a href="#">
+		 <img  src="./images/homemade_dumplings.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>
+		 <div class="caption_box">
+		 	Friday Dumplings with Alex
+		 </div>
+	</div>
+
+	<div class="float_left image_box">
+
+		<a href="#">
+		 <img  src="./images/grilling.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>
+		 <div class="caption_box">
+		 	Grilling Master Class with Marco
+		 </div>
+	</div>
+
+	<div class="float_left image_box">
+
+		<a href="#">
+		 <img  src="./images/fancy_salads.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>
+		 <div class="caption_box">
+		 	Fancy Salads with Carla
+		 </div>
+	</div>
+
+	<div class="float_clear"> </div>
+</div>
+
+
+
+<!-- People near you bar -->
+
+
+<div class="main_bar">
+	<div class="label_box float_left">
+		Chefs Near you
+		<div class="see_all">
+		<a href="./pages/eventList.html">
+			See all people!
+		</a>			
+		</div>
+	</div>
+
+	<div class="float_left image_box">
+
+		<a href="#">
+		 <img  src="./images/Martha.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>
+		 <div class="caption_box">
+		 	Martha
+		 </div>
+	</div>
+
+	<div class="float_left image_box">
+
+		<a href="./pages/chefInfo.html">
+		 <img  src="./images/steph.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>
+		 <div class="caption_box">
+		 	Steph
+		 </div>
+	</div>
+
+	<div class="float_left image_box">
+
+		<a href="#">
+		 <img  src="./images/mark.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>
+		 <div class="caption_box">
+		 	Mark
+		 </div>
+	</div>
+
+	<div class="float_left image_box">
+
+		<a href="#">
+		 <img  src="./images/tom.jpg" 
+		 width="200" 
+		 height="200"
+		 style="object-fit: cover">
+		</a>
+		 <div class="caption_box">
+		 	Tom
+		 </div>
+	</div>
+
+	<div class="float_clear"> </div>
+
 </div>
 
 </body>
